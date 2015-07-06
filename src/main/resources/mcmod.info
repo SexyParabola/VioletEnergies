@@ -1,0 +1,16 @@
+[
+{
+  "modid": "violetMod",
+  "name": "Violet Mod",
+  "description": "Project Violet",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "www.Wantedred.com",
+  "updateUrl": "",
+  "authorList": ["Lilly"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
