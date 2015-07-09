@@ -1,7 +1,7 @@
 #RoBoLilly's VioletMod
 
-This Mod is a comment created mod. If you have a idea for the mod and I think its worth While and it's posible with my coding
-skills, I will add it. Just Leave Me a comment or send me a fork of some code that you created.
+This mod is a community created mod. If you have a idea for the mod and I think its worth while and it's possible with my coding
+skills, I will add it. Just leave me a comment or send me a fork of some code that you created.
 
 **Link to Curse Mod Page**
 http://adf.ly/1KTEam
