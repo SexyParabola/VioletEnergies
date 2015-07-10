@@ -5,6 +5,7 @@ import net.minecraft.item.Item;
 public class VioletDust extends Item{
 	protected VioletDust(){
 		this.setCreativeTab(VioletMod.tabVioletMod);
+		this.setTextureName(VioletMod.MODID + ":violetDust");
 	}
 
 }

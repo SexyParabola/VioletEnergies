@@ -20,14 +20,15 @@ import cpw.mods.fml.common.registry.EntityRegistry;
 import cpw.mods.fml.common.registry.GameRegistry;
 
 @Mod(modid = VioletMod.MODID, version = VioletMod.VERSION)
-public class VioletMod
-{
+public class VioletMod{
+	
     public static final String MODID = "violetMod";
     public static final String VERSION = "0.1 Alpha";
     
     public static Block violetOre;
     public static Block violetBlock;
     public static Block violetCoreBlock;
+    public static Block violetEnergiser;
     public static Item violetIngot;
     public static Item violetDust; 
     public static Item violetDustPressed;
@@ -43,6 +44,7 @@ public class VioletMod
     @EventHandler
     public void init(FMLInitializationEvent event)
     {
+    	//Blocks
     	violetOre = new VioletOre().setBlockName("violetOre");
     	GameRegistry.registerBlock(violetOre, violetOre.getUnlocalizedName().substring(5));
     	
@@ -52,10 +54,15 @@ public class VioletMod
     	violetCoreBlock = new VioletCoreBlock().setBlockName("violetCoreBlock");
     	GameRegistry.registerBlock(violetCoreBlock, violetCoreBlock.getUnlocalizedName().substring(5));
     	
-    	violetIngot = new VioletIngot().setUnlocalizedName("violetIngot").setTextureName(MODID + ":violetIngot");
+    	violetEnergiser = new VioletEnergiser().setBlockName("violetEnergiser");
+    	GameRegistry.registerBlock(violetEnergiser, violetEnergiser.getUnlocalizedName().substring(5));
+    	
+    	
+    	//Items
+    	violetIngot = new VioletIngot().setUnlocalizedName("violetIngot");
     	GameRegistry.registerItem(violetIngot, violetIngot.getUnlocalizedName().substring(5));
     	
-    	violetDust = new VioletDust().setUnlocalizedName("violetDust").setTextureName(MODID + ":violetDust");
+    	violetDust = new VioletDust().setUnlocalizedName("violetDust");
     	GameRegistry.registerItem(violetDust, violetDust.getUnlocalizedName().substring(5));
     	
     	violetDustPressed = new VioletDustPressed().setUnlocalizedName("violetDustPressed");
@@ -80,10 +87,21 @@ public class VioletMod
     	GameRegistry.addRecipe(new ItemStack(VioletMod.violetCore),"IHI", "H#H", "IHI", '#', VioletMod.violetBlock, 'I', VioletMod.violetIngot, 'H', VioletMod.crushedCoal);
     	GameRegistry.addRecipe(new ItemStack(VioletMod.violetCoreBlock),"IHI", "H#H", "IHI", '#', VioletMod.violetBlock, 'I', VioletMod.violetIngot, 'H', VioletMod.violetCore);
     	GameRegistry.addRecipe(new ItemStack(VioletMod.violetShard),"###", "###", "###", '#', VioletMod.violetShardBroken);
+    	//Shapeless
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetDust,4),VioletMod.violetDustPressed);
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.crushedCoal), Items.coal);
     	GameRegistry.addShapelessRecipe(new ItemStack(Items.coal), VioletMod.crushedCoal);
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShardBroken,9), VioletMod.violetCoreBlock);
+    	
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 8), VioletMod.violetShard, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 7), VioletMod.violetShard, Items.coal, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 6), VioletMod.violetShard, Items.coal, Items.coal, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 5), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 4), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 3), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 2), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 1), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal);
+    	
     	
     	//Furnace
     	GameRegistry.addSmelting(new ItemStack(VioletMod.violetDust), new ItemStack(VioletMod.violetIngot), 1.0F);
