@@ -3,6 +3,7 @@ itemGroup.violetMod=Violet Mod
 tile.violetOre.name=Violet Ore
 tile.violetBlock.name=Violet Block
 tile.violetCoreBlock.name=Violet Hyper Core
+tile.violetEnergiser.name=Energiser
 
 item.violetIngot.name=Violet Ingot
 item.violetDust.name=Violet Dust
@@ -10,4 +11,4 @@ item.violetDustPressed.name=Pressed Violet Dust
 item.crushedCoal.name=Crushed Coal
 item.violetCore.name=Violet Core
 item.violetShardBroken.name=Broken Violet Shard
-item.violetShard.name= Violet Hyper Shard
+item.violetShard.name= Violet Shard

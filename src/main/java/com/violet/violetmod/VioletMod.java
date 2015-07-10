@@ -35,8 +35,6 @@ public class VioletMod{
     public static Item crushedCoal;
     public static Item violetShardBroken;
     public static Item violetShard;
-//  public static Item violetGoldCoalBlend;
-//  public static Item Vilaruim;
     public static Item violetCore;
     
     public static CreativeTabs tabVioletMod = new CreativeTabsVioletMod("violetMod");
@@ -56,7 +54,6 @@ public class VioletMod{
     	
     	violetEnergiser = new VioletEnergiser().setBlockName("violetEnergiser");
     	GameRegistry.registerBlock(violetEnergiser, violetEnergiser.getUnlocalizedName().substring(5));
-    	
     	
     	//Items
     	violetIngot = new VioletIngot().setUnlocalizedName("violetIngot");
@@ -86,12 +83,11 @@ public class VioletMod{
     	GameRegistry.addRecipe(new ItemStack(VioletMod.violetBlock),"#I#", "I#I", "#I#", '#', VioletMod.violetIngot, 'I', Items.gold_ingot);
     	GameRegistry.addRecipe(new ItemStack(VioletMod.violetCore),"IHI", "H#H", "IHI", '#', VioletMod.violetBlock, 'I', VioletMod.violetIngot, 'H', VioletMod.crushedCoal);
     	GameRegistry.addRecipe(new ItemStack(VioletMod.violetCoreBlock),"IHI", "H#H", "IHI", '#', VioletMod.violetBlock, 'I', VioletMod.violetIngot, 'H', VioletMod.violetCore);
-    	GameRegistry.addRecipe(new ItemStack(VioletMod.violetShard),"###", "###", "###", '#', VioletMod.violetShardBroken);
     	//Shapeless
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetDust,4),VioletMod.violetDustPressed);
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.crushedCoal), Items.coal);
     	GameRegistry.addShapelessRecipe(new ItemStack(Items.coal), VioletMod.crushedCoal);
-    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShardBroken,9), VioletMod.violetCoreBlock);
+    	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,9), VioletMod.violetCoreBlock);
     	
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 8), VioletMod.violetShard, Items.coal);
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 7), VioletMod.violetShard, Items.coal, Items.coal);
@@ -102,9 +98,9 @@ public class VioletMod{
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 2), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal);
     	GameRegistry.addShapelessRecipe(new ItemStack(VioletMod.violetShard,1, 1), VioletMod.violetShard, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal, Items.coal);
     	
-    	
     	//Furnace
     	GameRegistry.addSmelting(new ItemStack(VioletMod.violetDust), new ItemStack(VioletMod.violetIngot), 1.0F);
+    	GameRegistry.addSmelting(new ItemStack(VioletMod.violetOre), new ItemStack(VioletMod.violetIngot,1,4),1.0F);
     	
     	//FuelHandler
     	GameRegistry.registerFuelHandler(new VioletModFuelHandler());

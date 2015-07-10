@@ -21,11 +21,14 @@ public class VioletModFuelHandler implements IFuelHandler{
 		}else if(Block.getBlockFromItem(fuel.getItem()) == VioletMod.violetCoreBlock){
 			return 100000;	
 		}else if(fuel.getItem() == VioletMod.violetShard){
-			if(fuel.getItemDamage() >= 0){
-				return  (int) ((fuel.getItemDamage()*-300F)+2700);
-			}else{return 0;
+			
+			if(fuel.getItemDamage() > 0){
+				System.out.println(((fuel.getItemDamage()*-2400F)+21600));
+				return  (int) ((fuel.getItemDamage()*-2400F)+21600);
+				}else{
+				return 0;
 			}
-			}else{
+		}else{
 			return 0;
 		}
 	}

@@ -28,7 +28,7 @@ public class VioletModWorldGen implements IWorldGenerator{
 		 
 		private void generateSurface(World world, Random random, int x, int z)
 		{
-		this.addOreSpawn(VioletMod.violetOre, world, random, x, z, 16, 16, 4 + random.nextInt(3), 12, 0, 16);
+		this.addOreSpawn(VioletMod.violetOre, world, random, x, z, 16, 16, 5 + random.nextInt(3), 24, 0, 32);
 		}
 		 
 		private void generateNether(World world, Random random, int x, int z){
