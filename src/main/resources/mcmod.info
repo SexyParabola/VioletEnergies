@@ -1,14 +1,14 @@
 [
 {
   "modid": "violetMod",
-  "name": "Violet Mod",
-  "description": "Project Violet",
-  "version": "${version}",
-  "mcversion": "${mcversion}",
-  "url": "www.Wantedred.com",
+  "name": "VioletMod",
+  "description": "Project Violet Open Mod",
+  "version": "0.1.0 Alpha",
+  "mcversion": "1.7.10",
+  "url": "www.wantedred.com",
   "updateUrl": "",
   "authorList": ["Lilly"],
-  "credits": "",
+  "credits": "Jon The Tester",
   "logoFile": "",
   "screenshots": [],
   "dependencies": []
