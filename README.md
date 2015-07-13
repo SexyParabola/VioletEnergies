@@ -6,6 +6,10 @@ skills, I will add it. Just leave me a comment or send me a fork of some code th
 **Link to Curse Mod Page**
 http://adf.ly/1KTEam
 
+## UPDATE!!!
+We are going **NUCLEAR!!!**
+Stay tuned for More.
+
 ### Mod Downloads
 Most recent release:
 VioletMod-0.1.3_PreAlpha
