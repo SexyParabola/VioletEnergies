@@ -1,4 +1,4 @@
-#RoBoLilly's VioletEnergys
+#RoBoLilly's VioletEnergies
 
 This mod is a community created mod. If you have a idea for the mod and I think its worth while and it's possible with my coding
 skills, I will add it. Just leave me a comment or send me a fork of some code that you created.
