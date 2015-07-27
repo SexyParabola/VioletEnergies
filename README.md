@@ -1,18 +1,19 @@
 #RoBoLilly's VioletEnergies
 
-## UPDATE!! 7/17/2015
-There is going to be a total code rewrite, So hang on.
+## UPDATE!! 7/27/2015
+###VioletEnergies, The new adaptation of the VioletMod, Had Been Released. It's vary new and I'm shure it still has some bugs so let me know.
+
 
 **Link to Curse Mod Page**
 http://adf.ly/1KTEam
 
 ### Mod Downloads
 Most recent release:
-VioletMod-0.1.3_PreAlpha
+VioletEnergies-0.1.2_PreAlpha
 
 Download Here: 
 Just skip the ad (it helps thank you)
-http://adf.ly/1KTEf4
+http://adf.ly/1LSjCv
 
 The non-monetised Link is Here:
 http://adf.ly/10527939/violetmod-builds
