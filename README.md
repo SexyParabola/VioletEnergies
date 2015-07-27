@@ -1,7 +1,7 @@
 #RoBoLilly's VioletEnergies
 
 ## UPDATE!! 7/27/2015
-###VioletEnergies, The new adaptation of the VioletMod, Has been released. It's vary new and I'm shure it still has some bugs so let me know.
+###VioletEnergies, The new adaptation of the VioletMod, Has been released. It's vary new. I'm shure it has some bugs, so let me know if you see some and I'll get right on it.
 
 
 **Link to Curse Mod Page**
