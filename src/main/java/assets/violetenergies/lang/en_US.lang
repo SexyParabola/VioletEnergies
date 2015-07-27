@@ -1,0 +1,10 @@
+itemGroup.violetEnergies=Violet Energies
+
+tile.violetOre.name=Violet Ore
+tile.chemicalChargerIdle.name=Chemical Charger
+container.chemicalCharger=Chemical Charger
+
+item.violetium.name=Violetium Ingot
+item.violetDust.name=Violetium Dust
+item.basicShard.name=Basic Shard
+item.basicShardDust.name=Basic Shard Dust
