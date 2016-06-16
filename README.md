@@ -1,6 +1,7 @@
 #RoBoLilly's VioletEnergies
 
-## UPDATE!! 7/27/2015
+## UPDATE!! 6/16/2016
+###VioletEnergies is starting again!!! I Work on this on my free time as a hobbie. I've had school so I haven't had a lot of time to work on VioletEnergies. Now that it's summer, I will have a lot more time to work on this! I'm **excited** to see what comes of this project.
 ###VioletEnergies, The new adaptation of the VioletMod, Has been released. It's vary new. I'm sure it has some bugs, so let me know if you see some and I'll get right on it.
 
 
